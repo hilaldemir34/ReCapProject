@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,5 +20,6 @@ namespace Business.Constants
         internal static string CarNameAlreadyExist;
         internal static string CarNameAlreadyExists;
         internal static string ColorUpdated;
+        internal static string AuthorizationDenied;
     }
 }

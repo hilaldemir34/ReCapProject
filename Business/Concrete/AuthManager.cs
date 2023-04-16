@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Security.Hashing
+namespace Business.Concrete
 {
-    public class HashingHelper
+    internal class AuthManager
     {
-        public static void CreatePasswordHash(string password,out byte)
     }
 }
